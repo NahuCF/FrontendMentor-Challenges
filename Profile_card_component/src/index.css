@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  font-family: "Kumbh Sans", sans-serif;
+  text-align: center;
+  font-weight: 700;
+}
+body {
+  background-color: hsl(185, 75%, 39%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topPattern {
+  position: absolute;
+  bottom: 400px;
+  right: 980px;
+}
+.botPattern {
+  position: fixed;
+  height: 1400px;
+  left: 805px;
+  top: 500px;
+  z-index: 1;
+}
+.card {
+  box-shadow: 3px 15px 71px 0px rgba(0, 0, 0, 0.45);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 18px;
+  z-index: 2;
+}
+.svg {
+  border-radius: 18px 18px 0px 0px;
+}
+.img-papu {
+  width: 96px;
+  height: 96px;
+  position: relative;
+  bottom: 55px;
+  border-radius: 50%;
+  border-width: 5px;
+  border-color: white;
+  border-style: solid;
+}
+.middleOfCard {
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  bottom: 25px;
+}
+.rightSpan {
+  margin-right: 7px;
+  font-size: 18px;
+}
+.ventiSeis {
+  font-size: 18px;
+  font-weight: 400;
+  color: #adaeb2;
+}
+.terribleP {
+  margin-bottom: 8px;
+}
+.bottom-part {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #e7e7e7;
+}
+.div1,
+.div2,
+.div3 {
+  margin: 27px 0px;
+}
+.div1 {
+  margin: 27px 0px 27px 15zpx;
+}
+.div3 {
+  margin: 27px 15px 27px 0px;
+}
+.p1,
+.p2,
+.p3 {
+  margin: 0px 0px 5px 0px;
+  font-size: 18px;
+}
+.LowFont {
+  font-weight: 400;
+  font-size: 14px;
+  color: #adaeb2;
+}
